@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-B640C87A4FD3F80C4B4A48999F88E9B6_0000</CrashGUID>
+<ProcessId>22308</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>13</SecondsSinceStart>
+<GameName>UE4-PCG</GameName>
+<ExecutableName>PCGClient</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>WindowsClient</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.16.3-0+++UE4+Release-4.16</EngineVersion>
+<CommandLine>PCG </CommandLine>
+<LanguageLCID>2057</LanguageLCID>
+<AppDefaultLocale>en-GB</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.16-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Users/Max/Documents/GitHub/WindowsClient/PCG/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/Max/Documents/GitHub/WindowsClient/</RootDir>
+<MachineId>48A0FDD24CA860586985418EAC86F8F9</MachineId>
+<LoginId>48a0fdd24ca860586985418eac86f8f9</LoginId>
+<EpicAccountId>10b45e7896524a5494c27a17e79cb1f2</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Ensure condition failed: !Primitive-&gt;Bounds.BoxExtent.ContainsNaN() &amp;&amp; !Primitive-&gt;Bounds.Origin.ContainsNaN() &amp;&amp; !FMath::IsNaN(Primitive-&gt;Bounds.SphereRadius) &amp;&amp; FMath::IsFinite(Primitive-&gt;Bounds.SphereRadius) [File:D:\MD\UnrealEngine\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 752] &nl;Nans found on Bounds for Primitive GeneratedMesh: Origin X=-1228371968.000 Y=-31.011 Z=-45704690746376931246080.000, BoxExtent X=1228371968.000 Y=31.011 Z=45704690746376931246080.000, SphereRadius inf&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-6820HK CPU @ 2.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>34217742336</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>21366583296</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140736306003968</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>356118528</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>390209536</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>686206976</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>779374592</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
