@@ -1,0 +1,1 @@
+D:\MD\UnrealEngine\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun -nop4 -project=PCG\PCG.uproject -targetplatform=Win64 -servertargetplatform=Win64 -clientconfig=Development -serverconfig=Development -client -build -cook -allmaps -stage -stagingdirectory=D:\MD\UnrealEngine\PCG\Stage -pak -archive -archivedirectory=D:\MD\UnrealEngine\PCG\Archive

@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PCG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine",
+        "ProceduralMeshComponent"
+      ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TrueSkyPlugin",
+			"Enabled": true
+		}
+	]
+}
